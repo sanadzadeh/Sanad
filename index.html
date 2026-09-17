@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SANAD | Local AI for Business</title>
-<meta name="description" content="SANAD assesses and sets up customer-owned local AI systems for businesses with specific workflows that benefit from local deployment.">
+<title>Keptstack | Local AI for Business</title>
+<meta name="description" content="Keptstack assesses and sets up customer-owned local AI systems for businesses with specific workflows that benefit from local deployment.">
 <meta name="theme-color" content="#123C3A">
 <meta name="color-scheme" content="only light">
 <style>
@@ -12,7 +12,7 @@
 *{box-sizing:border-box}html{scroll-behavior:smooth;background:var(--bg);color-scheme:only light}body{margin:0;background:var(--bg);color:var(--text);font:17px/1.6 var(--font);-webkit-font-smoothing:antialiased}a{color:inherit}button,input,textarea{font:inherit}h1,h2,h3{margin:0;color:var(--text)}h1,h2{font-family:var(--serif);font-weight:600;letter-spacing:-.01em}h1{font-size:clamp(2.1rem,4vw,3rem);line-height:1.14}h2{font-size:clamp(1.55rem,2.7vw,2.05rem);line-height:1.2}h3{font-size:1.08rem}p{margin:0 0 1rem}.container{max-width:var(--max);margin:auto;padding:0 24px}.muted{color:var(--muted)}.label{display:inline-block;margin-bottom:14px;padding:4px 11px;border:1px solid var(--border);border-radius:999px;background:#fff;color:var(--muted);font-size:.83rem}
 .view{display:none}.view.active{display:block}
 .btn{display:inline-block;padding:11px 20px;border:1px solid transparent;border-radius:7px;background:var(--primary);color:#fff;text-decoration:none;font-weight:600;cursor:pointer}.btn.secondary{background:transparent;color:var(--primary);border-color:var(--primary)}
-.topbar{position:sticky;top:0;z-index:20;background:rgba(245,243,238,.93);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}.topbar-inner{max-width:var(--max);margin:auto;padding:15px 24px;display:flex;justify-content:space-between;align-items:center;gap:20px}.brand{text-decoration:none}.brand strong{display:block;font:600 1.18rem/1.1 var(--serif);color:var(--primary)}.brand span{display:block;margin-top:2px;color:var(--muted);font-size:.78rem}.back{border:0;background:none;color:var(--primary);font-weight:600;cursor:pointer;padding:8px 0}
+.topbar{position:sticky;top:0;z-index:20;background:rgba(245,243,238,.93);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}.topbar-inner{max-width:var(--max);margin:auto;padding:15px 24px;display:flex;justify-content:space-between;align-items:center;gap:20px}.brand{text-decoration:none;text-align:right}.brand strong{display:block;font:600 1.18rem/1.1 var(--serif);color:var(--primary)}.brand span{display:block;margin-top:2px;color:var(--muted);font-size:.78rem}.back{border:0;background:none;color:var(--primary);font-weight:600;cursor:pointer;padding:8px 0}
 .landing{min-height:100vh;display:flex;align-items:center}.landing-inner{width:100%;max-width:860px;margin:auto;padding:72px 24px}.landing-copy{max-width:690px;margin-bottom:34px}.landing-copy p{margin-top:14px;color:var(--muted);font-size:1.06rem}.choice-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.choice{appearance:none;text-align:left;background:#fff;border:1px solid var(--border);border-radius:15px;padding:28px;cursor:pointer;color:var(--text);transition:.15s ease}.choice:hover,.choice:focus-visible{border-color:var(--sand);transform:translateY(-2px);box-shadow:0 10px 26px -22px rgba(23,32,31,.45);outline:none}.choice h2{font-size:1.5rem}.choice span{display:block;margin-top:10px;color:var(--primary);font-size:.92rem;font-weight:700}
 .hero{padding:70px 0 56px}.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:52px;align-items:center}.hero p{color:var(--muted);font-size:1.08rem;max-width:590px;margin-top:16px}.hero-note{margin-top:20px;padding-left:14px;border-left:2px solid var(--sand);color:var(--muted);font-size:.92rem}.flow{background:#fff;border:1px solid var(--border);border-radius:15px;padding:30px}.node{padding:15px;border:1px solid var(--border);border-radius:9px;text-align:center;font-weight:600}.node.mid{border-color:var(--primary);color:var(--primary)}.line{width:1px;height:25px;background:var(--sand);margin:auto}
 section.content{padding:62px 0;border-top:1px solid var(--border)}.intro{max-width:var(--textmax);margin-bottom:34px}.intro p{color:var(--muted);margin-top:12px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:24px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:24px}.card h3{margin-bottom:8px}.card p,.card li{color:var(--muted);font-size:.96rem}.card ul{margin:10px 0 0;padding-left:18px}.plain-list{list-style:none;padding:0;margin:0;max-width:760px}.plain-list li{padding:15px 0;border-bottom:1px solid var(--border)}.plain-list li:last-child{border-bottom:0}.plain-list strong{display:block}.plain-list span{display:block;color:var(--muted);font-size:.92rem;margin-top:2px}
@@ -29,19 +29,14 @@ table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(-
   <div class="landing">
     <div class="landing-inner">
       <div class="landing-copy">
-        <span class="label">System Analytics, Networks, Data and AI</span>
-        <h1>Local AI on hardware you control.</h1>
-        <p>SANAD assesses and sets up local AI systems for businesses with a specific workflow that benefits from running on hardware they control.</p>
+      <h1>Local AI on hardware you control.</h1>
+        <p>Keptstack assesses and sets up local AI systems for businesses with a specific workflow that benefits from running on hardware they control.</p>
       </div>
-      <div class="choice-grid">
-        <button class="choice" type="button" data-open="model">
-          <h2>Business model</h2>
-          <span>Investor and validation view</span>
-        </button>
-        <button class="choice" type="button" data-open="site">
-          <h2>Business website</h2>
-          <span>Customer website</span>
-        </button>
+      <div style="margin-top:28px">
+        <button class="btn" type="button" data-open="site">View the business offer</button>
+      </div>
+      <div style="margin-top:18px;font-size:.88rem;color:var(--muted)">
+        <button type="button" class="back" data-open="model">Business model</button>
       </div>
     </div>
   </div>
@@ -50,16 +45,15 @@ table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(-
 <div id="model" class="view">
   <header class="topbar">
     <div class="topbar-inner">
-      <a class="brand" href="#" data-open="landing"><strong>SANAD</strong><span>Business model</span></a>
       <button class="back" type="button" data-open="landing">Back</button>
+      <a class="brand" href="#" data-open="landing"><strong>Keptstack</strong><span>Business model</span></a>
     </div>
   </header>
 
   <div class="hero">
     <div class="container">
-      <span class="label">Investor and validation view</span>
       <h1>Assess one workflow. Install only if local wins.</h1>
-      <p>SANAD assesses one business workflow, installs a local system only when the test supports it, hands over an environment the customer owns, and offers optional care after handover. Pursue a job only when the workflow has a clear local advantage; otherwise recommend cloud.</p>
+      <p>Keptstack assesses one business workflow, installs a local system only when the test supports it, hands over an environment the customer owns, and offers optional care after handover. Pursue a job only when the workflow has a clear local advantage; otherwise recommend cloud.</p>
     </div>
   </div>
 
@@ -87,11 +81,11 @@ table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(-
 
   <section class="content">
     <div class="container">
-      <div class="intro"><h2>Why the customer still owns it</h2><p>The ownership claim only works if SANAD avoids unnecessary lock-in.</p></div>
+      <div class="intro"><h2>Why the customer still owns it</h2><p>The ownership claim only works if Keptstack avoids unnecessary lock-in.</p></div>
       <div class="grid3">
         <div class="card"><h3>Customer data stays separate</h3><p>Business documents and backups should not be trapped inside one interface or runtime.</p></div>
         <div class="card"><h3>Components can be replaced</h3><p>Ollama, llama.cpp, MLX or another runtime can be changed if licensing, pricing or support changes.</p></div>
-        <div class="card"><h3>Support is optional</h3><p>Stopping the care plan should not disable the system. SANAD is paid to maintain it, not to unlock it.</p></div>
+        <div class="card"><h3>Support is optional</h3><p>Stopping the care plan should not disable the system. Keptstack is paid to maintain it, not to unlock it.</p></div>
       </div>
     </div>
   </section>
@@ -101,7 +95,7 @@ table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(-
       <div class="intro"><h2>What would falsify the idea</h2></div>
       <ul class="plain-list">
         <li><strong>Cloud is often good enough.</strong><span>If most qualified customers are better served by existing cloud products, the addressable market is too small.</span></li>
-        <li><strong>The DIY setup is cheap.</strong><span>A local runtime and browser interface are no longer scarce. SANAD has to earn its fee through testing, retrieval design, access and backup rules, update policy, handover and the option to decline the install.</span></li>
+        <li><strong>The DIY setup is cheap.</strong><span>A local runtime and browser interface are no longer scarce. Keptstack has to earn its fee through testing, retrieval design, access and backup rules, update policy, handover and the option to decline the install.</span></li>
         <li><strong>Local models may not match the quality customers expect.</strong><span>Each use case needs testing before hardware is sold or installed.</span></li>
         <li><strong>Support can become labour-heavy.</strong><span>The business needs standard builds and clear support boundaries or monthly care fees will be eaten by service time.</span></li>
         <li><strong>Security expectations can exceed a small provider's capability.</strong><span>Higher-risk work may require specialist partners, formal controls or a narrower scope.</span></li>
@@ -115,7 +109,7 @@ table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(-
 <div id="site" class="view">
   <header class="topbar">
     <div class="topbar-inner">
-      <a class="brand" href="#" data-open="landing"><strong>SANAD</strong><span>Local AI on hardware you control</span></a>
+      <a class="brand" href="#" data-open="landing"><strong>Keptstack</strong><span>Local AI on hardware you control</span></a>
       <button class="back" type="button" data-open="landing">Back</button>
     </div>
   </header>
@@ -123,10 +117,9 @@ table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(-
   <div class="hero">
     <div class="container hero-grid">
       <div>
-        <span class="label">System Analytics, Networks, Data and AI</span>
-        <h1>Private document search and drafting on hardware you control.</h1>
-        <p>SANAD starts with one job: search selected business documents, return source-backed answers and help staff draft from that material. Before any build, we map where the files live, which tools staff already use, who may access what and what information must stay inside the business.</p>
-        <div class="hero-note">The assessment tests whether local AI is good enough for this workflow. If it is not, SANAD recommends the better cloud option and stops there.</div>
+      <h1>Staff search and draft from your documents on hardware you control.</h1>
+        <p>Keptstack starts with one job: search selected business documents, return source-backed answers and help staff draft from that material. Before any build, we map where the files live, which tools staff already use, who may access what and what information must stay inside the business.</p>
+        <div class="hero-note">The assessment tests whether local AI is good enough for this workflow. If it is not, Keptstack recommends the better cloud option and stops there.</div>
       </div>
       <div class="flow">
         <div class="node">1. Map the environment</div>
@@ -147,13 +140,30 @@ table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(-
   <section class="content">
     <div class="container">
       <div class="intro">
+        <h2>The delivery path</h2>
+        <p>Each engagement follows the same sequence. The build only happens after the environment map and workflow test support it.</p>
+      </div>
+      <ul class="plain-list">
+        <li><strong>1. Map the environment.</strong><span>Inspect the document store, current tools, access rules, shadow AI use and what must not leave the business.</span></li>
+        <li><strong>2. Test the workflow.</strong><span>Run labelled questions on the approved material, including questions where the correct response is “not found”.</span></li>
+        <li><strong>3. Compare and decide.</strong><span>Proceed locally only when one workflow has a clear local advantage and the quality test passes. Otherwise recommend cloud or stop.</span></li>
+        <li><strong>4. Build the smallest system.</strong><span>Configure only the hardware, model runtime, retrieval and access needed for the first job.</span></li>
+        <li><strong>5. Hand over.</strong><span>Provide the working environment, admin access, documentation, backup notes and the agreed system boundary.</span></li>
+        <li><strong>6. Optional care.</strong><span>Maintain the supported build inside the written care boundary. New workflows remain separate projects.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="content">
+    <div class="container">
+      <div class="intro">
         <h2>The first workflow</h2>
         <p>The first build is deliberately narrow. It focuses on document search and drafting because those tasks are easy to test against agreed source material.</p>
       </div>
       <div class="grid2">
         <div class="card"><h3>Search selected documents</h3><p>Staff ask questions across an approved document set and receive answers with source references.</p></div>
         <div class="card"><h3>Draft from the same material</h3><p>Staff can prepare first drafts or summaries using retrieved source material, with a person checking the result before use.</p></div>
-        <div class="card"><h3>Run a quality test first</h3><p>SANAD tests the workflow on sample questions before recommending hardware or installation.</p></div>
+        <div class="card"><h3>Run a quality test first</h3><p>Keptstack tests the workflow on sample questions before recommending hardware or installation.</p></div>
         <div class="card"><h3>Keep later features out of the first build</h3><p>Transcription, voice and a general high-frequency assistant only proceed if the hardware and business task justify them.</p></div>
       </div>
     </div>
@@ -200,11 +210,20 @@ table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(-
   <section class="content">
     <div class="container">
       <div class="intro">
+        <h2>Safeguards</h2>
+        <p>The local system only sees approved documents. It should not crawl the rest of the network or unmanaged mailboxes. Keeping confidential material out of public AI tools is a separate control, handled through policy and appropriate browser or network controls. The local box does not enforce that on its own.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="content">
+    <div class="container">
+      <div class="intro">
         <h2>Then test the workflow</h2>
-        <p>Once the environment and boundary are clear, SANAD tests the first workflow on the customer’s own material. The output is a go, cloud or stop recommendation.</p>
+        <p>Once the environment and boundary are clear, Keptstack tests the first workflow on the customer’s own material. The output is a go, cloud or stop recommendation.</p>
       </div>
       <table>
-        <thead><tr><th>Test</th><th>What SANAD checks</th><th>Decision</th></tr></thead>
+        <thead><tr><th>Test</th><th>What Keptstack checks</th><th>Decision</th></tr></thead>
         <tbody>
           <tr><td>Sample questions</td><td>Use a labelled set of questions based on the customer’s documents, including questions where the correct result is “not found”.</td><td>Can the system retrieve the right source consistently?</td></tr>
           <tr><td>Good enough</td><td>Check source accuracy, answer usefulness, refusal when evidence is missing and response time for the agreed task.</td><td>Does local quality meet the threshold agreed before testing?</td></tr>
@@ -236,22 +255,7 @@ table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(-
     </div>
   </section>
 
-  <section class="content">
-    <div class="container">
-      <div class="intro">
-        <h2>The delivery path</h2>
-        <p>Each engagement follows the same sequence. The build only happens after the environment map and workflow test support it.</p>
-      </div>
-      <ul class="plain-list">
-        <li><strong>1. Map the environment.</strong><span>Inspect the document store, current tools, access rules, shadow AI use and what must not leave the business.</span></li>
-        <li><strong>2. Test the workflow.</strong><span>Run labelled questions on the approved material, including questions where the correct response is “not found”.</span></li>
-        <li><strong>3. Compare and decide.</strong><span>Proceed locally only when one workflow has a clear local advantage and the quality test passes. Otherwise recommend cloud or stop.</span></li>
-        <li><strong>4. Build the smallest system.</strong><span>Configure only the hardware, model runtime, retrieval and access needed for the first job.</span></li>
-        <li><strong>5. Hand over.</strong><span>Provide the working environment, admin access, documentation, backup notes and the agreed system boundary.</span></li>
-        <li><strong>6. Optional care.</strong><span>Maintain the supported build inside the written care boundary. New workflows remain separate projects.</span></li>
-      </ul>
-    </div>
-  </section>
+
 
   <section class="content">
     <div class="container">
@@ -292,7 +296,7 @@ table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(-
         <div class="card"><h3>Care</h3><p><strong>About $500 to $1,500 per month</strong></p><p>Early estimate for a standard supported build. Public managed private AI offers in Australia currently start around $1,500 per month at the heavier managed end.</p></div>
       </div>
       <div class="callout">
-        <p><strong>Hardware planning band:</strong> roughly $3,000 to $10,000 for a small workstation or compact local AI appliance, with higher-memory systems costing more. As one current reference point, NVIDIA DGX Spark is listed in Australia at about $8,999 on promotion. This is a market reference, not a recommended SANAD configuration.</p>
+        <p><strong>Hardware planning band:</strong> roughly $3,000 to $10,000 for a small workstation or compact local AI appliance, with higher-memory systems costing more. As one current reference point, NVIDIA DGX Spark is listed in Australia at about $8,999 on promotion. This is a market reference, not a recommended Keptstack configuration.</p>
       </div>
     </div>
   </section>
@@ -301,7 +305,7 @@ table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(-
     <div class="container grid2">
       <div>
         <div class="intro"><h2>Discuss a use case</h2><p>Start with the business task. We can then compare local AI with the simpler cloud options.</p></div>
-        <p class="muted"><strong>Email:</strong> contact@sanad.net.au</p>
+        <p class="muted"><strong>Email:</strong> contact@keptstack.net.au</p>
       </div>
       <form class="form" id="contactForm" novalidate>
         <div class="row"><label for="cName">Name</label><input id="cName" type="text" required></div>
@@ -314,7 +318,7 @@ table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(-
     </div>
   </section>
 
-  <div class="footer"><div class="container">Prototype website. Security design, model licensing and support terms would be confirmed for each installation.</div></div>
+  <div class="footer"><div class="container">Prototype site. Security design, model licensing and support terms would be confirmed for each installation.</div></div>
 </div>
 
 <script>
@@ -358,14 +362,14 @@ table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(-
       return;
     }
 
-    const subject = encodeURIComponent('SANAD enquiry: ' + business);
+    const subject = encodeURIComponent('Keptstack enquiry: ' + business);
     const body = encodeURIComponent(
       'Name: ' + name + '\n' +
       'Business: ' + business + '\n' +
       'Email: ' + email + '\n\n' +
       'What they would like AI to help with:\n' + help
     );
-    window.location.href = 'mailto:contact@sanad.net.au?subject=' + subject + '&body=' + body;
+    window.location.href = 'mailto:contact@keptstack.net.au?subject=' + subject + '&body=' + body;
     status.textContent = 'Your email client should now open.';
     status.className = 'status show ok';
   });
