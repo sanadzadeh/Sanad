@@ -29,7 +29,7 @@ table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(-
   <div class="landing">
     <div class="landing-inner">
       <div class="landing-copy">
-        <span class="label">SANAD</span>
+        <span class="label">System Analytics, Networks, Data and AI</span>
         <h1>Local AI on hardware you control.</h1>
         <p>SANAD assesses and sets up local AI systems for businesses with a specific workflow that benefits from running on hardware they control.</p>
       </div>
@@ -67,7 +67,7 @@ table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(-
     <div class="container">
       <div class="intro">
         <h2>What is sold</h2>
-        <p>Buyers pay for a tested workflow, retrieval and access rules that work on their material, a documented handover they own, and optional maintenance. They are not paying for a runtime they could install themselves.</p>
+        <p>Buyers pay for a mapped working environment, a tested workflow, retrieval and access rules that work on their material, a documented handover they own, and optional maintenance. They are not paying for a runtime they could install themselves.</p>
       </div>
     </div>
   </section>
@@ -123,17 +123,23 @@ table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(-
   <div class="hero">
     <div class="container hero-grid">
       <div>
-        <span class="label">Customer-owned local AI</span>
+        <span class="label">System Analytics, Networks, Data and AI</span>
         <h1>Private document search and drafting on hardware you control.</h1>
-        <p>SANAD starts with one job: search selected business documents, return source-backed answers and help staff draft from that material without sending the document set to a public chatbot.</p>
+        <p>SANAD starts with one job: search selected business documents, return source-backed answers and help staff draft from that material. Before any build, we map where the files live, which tools staff already use, who may access what and what information must stay inside the business.</p>
         <div class="hero-note">The assessment tests whether local AI is good enough for this workflow. If it is not, SANAD recommends the better cloud option and stops there.</div>
       </div>
       <div class="flow">
-        <div class="node">Staff question or drafting task</div>
+        <div class="node">1. Map the environment</div>
         <div class="line"></div>
-        <div class="node mid">Local document workspace</div>
+        <div class="node">2. Test the workflow</div>
         <div class="line"></div>
-        <div class="node">Approved business documents</div>
+        <div class="node mid">3. Compare and decide</div>
+        <div class="line"></div>
+        <div class="node">4. Build the smallest system</div>
+        <div class="line"></div>
+        <div class="node">5. Hand over</div>
+        <div class="line"></div>
+        <div class="node">6. Optional care</div>
       </div>
     </div>
   </div>
@@ -156,8 +162,46 @@ table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(-
   <section class="content">
     <div class="container">
       <div class="intro">
-        <h2>What the assessment tests</h2>
-        <p>The assessment produces a go or no-go recommendation. The buyer pays for the test and the recommendation, not for a pre-decided hardware sale.</p>
+        <h2>Map the working environment first</h2>
+        <p>The assessment starts with the systems staff already use and the information they are allowed to access. This is a short, written scope, not a full enterprise architecture review.</p>
+      </div>
+      <div class="grid2">
+        <div class="card">
+          <h3>Document store</h3>
+          <p>Identify the approved corpus and where it lives: SharePoint, file server, iManage, Google Drive, shared drives or controlled exports. The scope is a defined collection, not “all of IT”.</p>
+        </div>
+        <div class="card">
+          <h3>Tools already in use</h3>
+          <p>Record Word, Teams, Copilot, ChatGPT, Claude, Grammarly, browser plugins and any other AI staff already use. The local workspace has to fit beside those tools or staff will ignore it.</p>
+        </div>
+        <div class="card">
+          <h3>Identity and access</h3>
+          <p>Map who may query which document set. The local system should follow the business's existing permission model rather than create a separate access scheme.</p>
+        </div>
+        <div class="card">
+          <h3>Current shadow use</h3>
+          <p>Identify where confidential material is already being pasted into public AI tools. A local alternative only helps if the current behaviour changes.</p>
+        </div>
+        <div class="card">
+          <h3>Controlled-system boundary</h3>
+          <p>Write down what the local model may see and what it must not. Use allow-listed sources. Do not crawl the whole network or unmanaged mailboxes.</p>
+        </div>
+        <div class="card">
+          <h3>Two controls, not one</h3>
+          <p>Stop public AI tools reaching the confidential corpus through policy and suitable technical controls, while also stopping the local system from reaching anything outside the approved source list.</p>
+        </div>
+      </div>
+      <div class="callout">
+        <p>The assessment output includes this environment map and the written boundary. Anything broader becomes a separate architecture or security engagement.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="content">
+    <div class="container">
+      <div class="intro">
+        <h2>Then test the workflow</h2>
+        <p>Once the environment and boundary are clear, SANAD tests the first workflow on the customer’s own material. The output is a go, cloud or stop recommendation.</p>
       </div>
       <table>
         <thead><tr><th>Test</th><th>What SANAD checks</th><th>Decision</th></tr></thead>
@@ -195,14 +239,16 @@ table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(-
   <section class="content">
     <div class="container">
       <div class="intro">
-        <h2>Qualification rule</h2>
-        <p>Local work only proceeds when all four conditions are met.</p>
+        <h2>The delivery path</h2>
+        <p>Each engagement follows the same sequence. The build only happens after the environment map and workflow test support it.</p>
       </div>
       <ul class="plain-list">
-        <li><strong>One workflow.</strong><span>The customer can name the first task clearly enough to test it.</span></li>
-        <li><strong>A reason local wins.</strong><span>There is a specific control, continuity or operating reason to prefer local over a standard cloud product.</span></li>
-        <li><strong>No internal owner for the stack.</strong><span>The customer needs SANAD to select, configure and maintain the supported setup.</span></li>
-        <li><strong>The quality test passes.</strong><span>The local system meets the agreed threshold on the customer’s material. If any condition fails, the assessment ends with a cloud recommendation or a no-go.</span></li>
+        <li><strong>1. Map the environment.</strong><span>Inspect the document store, current tools, access rules, shadow AI use and what must not leave the business.</span></li>
+        <li><strong>2. Test the workflow.</strong><span>Run labelled questions on the approved material, including questions where the correct response is “not found”.</span></li>
+        <li><strong>3. Compare and decide.</strong><span>Proceed locally only when one workflow has a clear local advantage and the quality test passes. Otherwise recommend cloud or stop.</span></li>
+        <li><strong>4. Build the smallest system.</strong><span>Configure only the hardware, model runtime, retrieval and access needed for the first job.</span></li>
+        <li><strong>5. Hand over.</strong><span>Provide the working environment, admin access, documentation, backup notes and the agreed system boundary.</span></li>
+        <li><strong>6. Optional care.</strong><span>Maintain the supported build inside the written care boundary. New workflows remain separate projects.</span></li>
       </ul>
     </div>
   </section>
@@ -261,7 +307,7 @@ table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(-
         <div class="row"><label for="cName">Name</label><input id="cName" type="text" required></div>
         <div class="row"><label for="cBusiness">Business</label><input id="cBusiness" type="text" required></div>
         <div class="row"><label for="cEmail">Work email</label><input id="cEmail" type="email" required></div>
-        <div class="row"><label for="cHelp">What workflow do you want to test, and what information must not leave the business?</label><textarea id="cHelp" required></textarea></div>
+        <div class="row"><label for="cHelp">What workflow do you want to test, where do the documents live, and what must not leave the business?</label><textarea id="cHelp" required></textarea></div>
         <button class="btn" type="submit">Send enquiry</button>
         <div id="formStatus" class="status"></div>
       </form>
